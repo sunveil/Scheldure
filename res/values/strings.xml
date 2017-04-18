@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyActivity</string>
+    <string name="scheldure_title">Расписание</string>
+    <style name="textColor">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+</resources>

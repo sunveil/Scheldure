@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent" android:background="#0859ff">
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:orientation="vertical" android:id="@+id/tr"
+            android:background="#0859ff" android:layout_marginTop="60dp">
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageView" android:background="@mipmap/ic_boy" android:layout_column="0"
+                android:layout_weight="0" android:layout_span="1"
+                android:layout_gravity="center_vertical"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="1" android:weightSum="1"
+                android:layout_column="1" android:layout_span="1" android:layout_marginLeft="0dp"
+                android:layout_margin="0dp" android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp" android:background="#0859ff"
+                android:layout_marginTop="0dp" android:paddingTop="10dp" android:paddingLeft="10dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Иванов Иван"
+                    android:id="@+id/textView2" android:textColor="#ffffff" android:background="#0859ff"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ИГУ"
+                    android:id="@+id/start" android:textColor="#ffffff" android:background="#0859ff"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Институт математики экономики и информатики"
+                    android:id="@+id/end" android:layout_weight="1" android:textColor="#ffffff"
+                    android:background="#0859ff"/>
+        </LinearLayout>
+    </TableRow>
+</TableLayout>
