@@ -40,9 +40,9 @@ public class DBHelper extends SQLiteOpenHelper{
         onCreate(db);
     }
 
-    public Cursor getData(int id){  
+    public Cursor getData(int id){
         SQLiteDatabase db = this.getWritableDatabase();
-        Cursor res = db.rawQuery("select * from contacts where id="+id+"", null);
+        Cursor res = db.rawQuery("select * from" + TABLE_NAME + "where id="+id+"", null);
         return res;
     }
 
